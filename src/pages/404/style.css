@@ -1,0 +1,10 @@
+.App .not-found img {
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+
+.App .not-found p {
+    text-align: center;
+    font-size: 1.5em;
+}

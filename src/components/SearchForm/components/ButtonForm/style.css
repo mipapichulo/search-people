@@ -1,0 +1,17 @@
+.App .form-container form .form-group a {
+    padding: .4em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px solid rgb(40, 40, 255);
+    color: rgb(40, 40, 255);
+    background-color: none;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.App .form-container form .form-group a:hover {
+    background-color: rgb(40, 40, 255);
+    color: white;
+}

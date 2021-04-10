@@ -1,0 +1,11 @@
+.App .detail-person {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 1em;
+}
+
+.App .detail-person .information-detail-person {
+    padding: .8em;
+    border-radius: 10px;
+    border-color: darkgray;
+}

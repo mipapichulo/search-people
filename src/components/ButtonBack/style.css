@@ -1,0 +1,55 @@
+.App .detail-person button.btn-back {   
+    grid-column: span 2;
+    align-self: flex-start;
+    padding: .4em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px solid rgb(119, 119, 119);
+    color: rgb(68, 68, 68);
+    background-color: none;
+    transition: 0.3s;
+    outline: none;
+}
+
+.App .form-container form .form-group  button.btn-back {
+    padding: .4em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px solid rgb(119, 119, 119);
+    color: rgb(68, 68, 68);
+    background-color: none;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+
+.App .not-found button.btn-back {
+    /* CENTER THE BUTTON */
+    width: 110px; 
+    margin-left: 50%;
+    transform: translateX(-50%);
+    /*************************/
+    margin-top: 1em;
+    padding: .4em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px solid rgb(119, 119, 119);
+    color: rgb(68, 68, 68);
+    background-color: none;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.App .form-container form .form-group  button.btn-back:hover,
+.App .detail-person button.btn-back:hover,
+.App .not-found button.btn-back:hover {
+    background-color: rgb(119, 119, 119);
+    color: rgb(255, 255, 255);
+}
+

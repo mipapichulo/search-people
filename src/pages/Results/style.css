@@ -1,0 +1,12 @@
+.App .results {
+    padding: 1em;
+}
+
+.App .form-container form {
+    justify-content: start;
+    margin-bottom: 1em;
+}
+
+.App .form-container form .form-group input {
+    width: 400px;
+}

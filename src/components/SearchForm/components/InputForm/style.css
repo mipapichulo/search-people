@@ -1,0 +1,9 @@
+.App .form-container form .form-group input{
+    width: 300px;
+    padding: .5em;
+    outline: none;
+    font-size: 1em;
+    border: none;
+    background-color: rgb(204, 204, 204);
+}
+

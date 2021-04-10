@@ -1,0 +1,12 @@
+.App .detail-person .information-detail-person {
+    grid-column: span 10;
+    border: 1px solid darkgray;
+}
+
+.App .detail-person .information-detail-person > * {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: .5em;
+}
+
+

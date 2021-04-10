@@ -1,0 +1,36 @@
+.App .results .results-container .result-item {
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    padding: .8em;
+    margin-bottom: 1em;
+}
+
+.App .results .results-container .result-item .information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5em;
+ 
+}
+
+.App .results .results-container .result-item .btn-detail-container {
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+}
+.App .results .results-container .result-item .btn-detail-container .btn-detail-person {
+    padding: .4em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px solid rgb(40, 40, 255);
+    color: rgb(40, 40, 255);
+    background-color: none;
+    transition: 0.3s;
+    text-decoration: none;
+    
+}
+
+.App .results .results-container .result-item .btn-detail-container .btn-detail-person:hover {
+    background-color: rgb(40, 40, 255);
+    color: white;
+}
